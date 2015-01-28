@@ -10,11 +10,13 @@
 <script src="/js/bootstrap-datepicker.js"></script>
 <script src="/js.js"></script>
 
-<!-- <script type="text/javascript" src="/dev/scripts/jquery.mockjax.js"></script> -->
+<script src="/js/bootstrap3-typeahead.js"></script>
+
+<!-- <script type="text/javascript" src="/dev/scripts/jquery.mockjax.js"></script>
 <script type="text/javascript" src="/dev/src/jquery.autocomplete.js"></script>
 <script type="text/javascript" src="/dev/scripts/cities.js"></script>
 <script type="text/javascript" src="/dev/scripts/demo.js"></script>
-
+ -->
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>

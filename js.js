@@ -13,7 +13,10 @@
 //   });
 // });
 
-
+$.get('cities.json', function(data){
+    $("#end").typeahead({ source:data });
+    $("#start").typeahead({ source:data });
+},'json');
 
 var directionsDisplay;
 var directionsService;
@@ -118,6 +121,7 @@ function set_info (object) {
 $('.rm_text').click(function() {
   var id = $(this).attr('for');
   $('#'+id).val('');
+  $('#'+id).focus();
   $(this).hide();
 });
 

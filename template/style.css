@@ -72,6 +72,9 @@ b, strong {
 	cursor: pointer;
 	color: #999;
 	pointer-events: auto;
+	line-height: 46px;
+	width: 46px;
+	height: 46px;
 }
 
 .top .dropdown {
@@ -90,9 +93,17 @@ b, strong {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #FFF;
 	font-size: 22px;
-	margin-top: 8px;
+	margin-top: 0px;
 }
-
+.top_phone_info {
+	color: #EEE;
+	font-size: 13px;	
+}
+.top_phone img {
+	margin-top: -5px;
+	width: 20px;
+	
+}
 .nav-tabs > li {
 	margin-bottom: 0px;
 }

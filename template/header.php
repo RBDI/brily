@@ -80,8 +80,9 @@ $cr['RUR']['sign']='<i class="fa fa-rub"></i>';
 					<li role="presentation"><a href="#">Экскурсии</a></li>
 				</ul>				
 			</div>
-			<div class="col-sm-3">
-				<div class="top_phone">+33 966 896 434</div>
+			<div class="col-sm-3" align="center">
+				<div class="top_phone">+33 966 896 434 <img src="/img/viber.png"> <img src="/img/whatsapp.png"> </div>
+				<div class="top_phone_info"><img src="/img/rus.png"> Русскоязычный оператор</div>
 			</div>
 			<div class="col-sm-1">
 				<div class="dropdown">

@@ -36,7 +36,7 @@ include "header.php";
 				<div class="col-sm-5">					
 					<strong>Куда</strong>
 					<div class="form-group has-feedback">
-						<input type="text" class="form-control input-lg place"  value="<? print $end; ?>" id="end" placeholder="Город, вокзал, аэропорт">
+						<input type="text" class="form-control input-lg place"  value="<? print $end; ?>" id="end" data-provide="typeahead" placeholder="Город, вокзал, аэропорт">
 						<span class="glyphicon glyphicon-remove-circle form-control-feedback rm_text" id="rm_end" for="end" aria-hidden="true" <? if ($end=='') print 'style="display:none;"'; ?>></span>
 					</div>					
 		            <!-- <input type="text" name="country" id="autocomplete-ajax" style="position: absolute; z-index: 2; background: transparent;"/> -->
